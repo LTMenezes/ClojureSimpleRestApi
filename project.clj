@@ -8,7 +8,7 @@
                  [ring/ring-jetty-adapter "1.2.1"]
                  [compojure "1.1.6"]]
   :plugins [[lein-ring "0.8.10"]]
-  :ring {:handler clojure-simple-rest-api.teste/app
+  :ring {:handler clojure-simple-rest-api.core/app
          :nrepl {:start? true
                  :port 10030}}
   :main ^:skip-aot clojure-simple-rest-api.core
